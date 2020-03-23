@@ -1,0 +1,106 @@
+.reviews-wrapper {
+    background: url(../img/reviews-img-1.png) no-repeat;
+    height: 830px;
+}
+
+.reviews-title {
+    text-align: center;
+}
+
+.reviews-title p:first-child {
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+    padding: 90px 0 25px;
+}
+
+.reviews-title p:nth-child(2) {
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+}
+
+.reviews-title span {
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    display: inline-block;
+    margin: 40px 0 90px;
+}
+
+.reviews-content-wrapper {
+    display: grid;
+    grid-template-columns: 552px 552px;
+    grid-template-rows: 160px 160px;
+    max-width: 1104px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 70px;
+}
+
+.reviews-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 514px;
+    width: 100%;
+}
+
+.reviews-content-text-title {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+}
+
+.reviews-content-text-sign {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+    padding: 15px 0;
+}
+
+.reviews-content-text-item {
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    display: inline-block;
+}
+
+.reviews-content-text-description {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999999;
+    max-width: 373px;
+    padding-top: 25px;
+}

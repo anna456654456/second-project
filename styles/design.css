@@ -1,0 +1,55 @@
+.design-wrapper {
+    background: url("../img/design-img-1.png") no-repeat;
+    max-width: 1920px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    min-height: 850px;
+}
+
+.design-title p:first-child {
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+    padding: 90px 0 25px;
+}
+
+.design-title p:nth-child(2) {
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+}
+
+.design-title span {
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    display: inline-block;
+    margin: 40px 0 0px;
+}
+
+.design-img img:first-child {
+    position: absolute;
+    bottom: 0;
+    right: 752px;
+}
+
+.design-img img:nth-child(2) {
+    position: absolute;
+    bottom: -95px;
+    right: 630px;
+}

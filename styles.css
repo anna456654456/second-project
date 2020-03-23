@@ -1,0 +1,29 @@
+@import './styles/welcome.css';
+@import './styles/about-us.css';
+@import './styles/services.css';
+@import './styles/design.css';
+@import './styles/activity.css';
+@import './styles/team.css';
+@import './styles/work.css';
+@import './styles/reviews.css';
+@import './styles/blog.css';
+@import './styles/map.css';
+@import './styles/footer.css';
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=latin-ext');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+
+.wrapper {
+    max-width: 1920px;
+    width: 100%;
+    box-sizing: border-box;
+}

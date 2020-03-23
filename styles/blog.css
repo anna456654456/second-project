@@ -1,0 +1,139 @@
+.blog-title {
+    text-align: center;
+}
+
+.blog-title p:first-child {
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+    padding: 90px 0 25px;
+}
+
+.blog-title p:nth-child(2) {
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+}
+
+.blog-title span {
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    display: inline-block;
+    margin: 40px 0 45px;
+}
+
+.blog-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+ 
+.blog-content-img {
+    position: relative;
+}
+
+.blog-content-img img {
+    cursor: pointer;
+}
+
+.blog-content-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    left: -10px;
+    background-color: #95e1d3;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.95;
+    letter-spacing: normal; 
+    font-stretch: normal;
+    padding: 15px;
+}
+
+.blog-content-item div:first-child {
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.blog-content-item div:last-child {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300; 
+    font-style: italic; 
+}
+
+.blog-content-title {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.blog-content-description {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999999;
+    max-width: 380px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 20px;
+}
+
+.blog-content-views {
+    padding: 20px 0 120px;
+}
+
+.blog-content-views span {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999999;
+    cursor: pointer;
+}
+
+.blog-content-views span i {
+    color: #95e1d3;
+    padding-right: 7px;
+}
+
+.blog-content-views span:first-child {
+    margin-right: 20px;
+}

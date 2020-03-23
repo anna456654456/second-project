@@ -1,0 +1,96 @@
+.services-title {
+    text-align: center;
+}
+
+.services-title p:first-child {
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+    padding: 90px 0 25px;
+}
+
+.services-title p:nth-child(2) {
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+}
+
+.services-title span {
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    display: inline-block;
+    margin: 40px 0 60px;
+}
+
+.services-description {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 150px 150px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 110px;
+}
+
+.services-description-photo, .services-description-design, .services-description-creativity, .services-description-seo, .services-description-web, .services-description-digital {
+    display: flex;
+    align-items: flex-start;
+}
+
+.services-description-name {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+    padding-bottom: 20px;
+}
+
+.services-description-logo i {
+    font-size: 25px;
+    color: #95e1d3;
+    margin-right: 25px;
+}
+
+.services-description-details {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999999;
+}
+
+.services-description-wrapper {
+    max-width: 279px;
+}
+
+.services-description-photo, .services-description-design, .services-description-creativity {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.services-description-seo, .services-description-web, .services-description-digital {
+    padding-top: 50px;
+}

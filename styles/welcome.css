@@ -1,0 +1,166 @@
+.welcome-wrapper {
+    background: url("../img/welcome-img-1.png") no-repeat;
+    max-width: 1920px;
+    width: 100%;
+    color: #ffffff;
+}
+
+.welcome-logo-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.welcome-logo {
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.welcome-logo-menu {
+    max-width: 570px;
+    width: 100%;
+}
+
+.welcome-logo-menu ul {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 0;   
+}
+
+.welcome-logo-menu ul li {
+    list-style: none;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+}
+
+
+.welcome-logo-menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-bottom: 12px;
+}
+
+.welcome-logo-menu ul li a:hover{
+    color: #fce38a;
+    border-bottom: 3px solid #fce38a;
+}
+
+.welcome-title {
+    text-align: center;
+}
+
+.welcome-title p:first-child {
+    font-family: "Kaushan Script";
+    font-size: 72px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 100px 0 42px 0;
+    margin: 0;
+}
+
+.welcome-title p:nth-child(2) {
+    max-width: 860px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Montserrat;
+    font-size: 150px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.93;
+    letter-spacing: normal;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.welcome-title span:nth-child(3) {
+    width: 60px;
+    height: 3px;
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+.welcome-title button {
+    display: block;
+    margin: 50px auto 120px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border: solid 3px #ffffff;
+    background-color: transparent;
+    padding: 15px 35px;
+    cursor: pointer;
+}
+
+.welcome-dots-intro-stick, .welcome-dots-work-stick, .welcome-dots-about-stick, .welcome-dots-contacts-stick {
+    width: 280px;
+    height: 3px;
+    opacity: 0.5;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.welcome-dots {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.welcome-dots-intro-stick:hover, .welcome-dots-work-stick:hover, .welcome-dots-about-stick:hover, .welcome-dots-contacts-stick:hover {
+    opacity: 1;
+    background-image: linear-gradient(to right, #f38181  0px,  #f38181 70px, #ffffff 70px);
+    transition: opacity 300ms, background-image 300ms;
+}
+
+.welcome-dots-intro-text, .welcome-dots-work-text, .welcome-dots-about-text, .welcome-dots-contacts-text {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    cursor: pointer;
+}
+
+.welcome-dots-intro-text a, .welcome-dots-work-text a, .welcome-dots-about-text a, .welcome-dots-contacts-text a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.welcome-dots-intro-text a span, .welcome-dots-work-text a span, .welcome-dots-about-text a span, .welcome-dots-contacts-text a span {
+    font-size: 24px;
+    font-weight: bold;
+}
